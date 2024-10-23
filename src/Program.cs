@@ -11,7 +11,7 @@ namespace Models
 {
     public class CalcCore
     {
-        [DllImport("../include/libExample.dylib", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("./include/libExample.dylib", CallingConvention = CallingConvention.Cdecl)]
         private static extern string CalculateWrapper(string expression);
 
         [DllImport("./include/libExample.dylib", EntryPoint = "add" , CallingConvention = CallingConvention.Cdecl)]

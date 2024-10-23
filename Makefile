@@ -1,7 +1,7 @@
 CC = g++
 CCFLAGS = -std=c++17
 PROJECTDIR = .
-INCLUDEDIR = include
+INCLUDEDIR = src/include
 DYNAMICLIB = libExample.dylib
 DYNAMICLIBFLAGS = -fpic -shared
 
